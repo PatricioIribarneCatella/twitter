@@ -1,0 +1,9 @@
+buscar #tema
+buscar @autor
+buscar #tema parametro
+buscar @autor parametro
+buscar @autor cronologico
+buscar @autor popular
+buscar #tema cronologico
+buscar #tema popular
+
