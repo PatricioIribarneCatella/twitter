@@ -3,14 +3,18 @@
 ### Compilar
 
 ```bash
+ $ mkdir build
+
+ $ cd build
+
+ $ cmake ..
+
  $ make
 ```
 
 ### Tests
 
 ```bash
- $ make tests
-
- $ make volumen
+ $ ./run-tests.sh
 ```
 
