@@ -1,3 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+
+#include "buscar.h"
+#include "favorito.h"
+#include "twittear.h"
+
+#include "lista.h"
+#include "hash.h"
+
 #define TWITTEAR "twittear"
 #define FAVORITO "favorito"
 #define BUSCAR "buscar"

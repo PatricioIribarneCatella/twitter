@@ -1,3 +1,8 @@
+#include <stdlib.h>
+
+#include "lista.h"
+#include "hash.h"
+
 // Destruye los datos almacenados en el hash de los usuarios/hashtags.
 void destruir_dato_usuario_hashtag(void* dato) {
 

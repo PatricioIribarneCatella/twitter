@@ -1,5 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "hash.h"
+#include "lista.h"
+#include "heap.h"
+
 #define CRONOLOGICO "cronologico"
 #define POPULAR "popular"
+
+// Función de comparación.
+int cmp(const void *a, const void *b) {
+
+	tweet_t* c = (tweet_t*)a;
+	tweet_t* d = (tweet_t*)b;
+
+	if (c->cant_favoritos < d->cant_favoritos) {
+		return 1;
+	} else if (c->cant_favoritos > d->cant_favoritos) {
+		return -1;
+	} else {
+		return 0;
+	}
+}
 
 void buscar(hash_t* tweets, hash_t* usuario_hashtag, char* autor_hashtag, char* orden, char* cantidad) {
 

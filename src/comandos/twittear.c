@@ -1,3 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "utils.h"
+
+#include "lista.h"
+#include "hash.h"
+#include "tweet.h"
+
 void twittear(lista_t* lista, hash_t* tweets, hash_t* usuario_hashtag, bool ids[]) {
 
 	char* autor = lista_borrar_primero(lista);
