@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "defs.h"
+
 #include "lista.h"
 #include "hash.h"
 
 #define ARROBA '@'
 #define NUMERAL '#'
-
-#define TAMANIO_INICIAL_TEXTO 1000
 
 // Convierte a texto el tweet ingresado por comando y se fija si hay menciones a usuarios o a hashtags.
 char* convertir_lista_a_texto(lista_t* lista, hash_t* usuario_hashtag, char* id) {

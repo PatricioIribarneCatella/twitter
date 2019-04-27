@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "tweet.h"
 #include "hash.h"
 #include "lista.h"
 #include "heap.h"

@@ -3,13 +3,17 @@
 #include <stdbool.h>
 #include <string.h>
 
+#include "defs.h"
+#include "lectura.h"
+#include "procesar.h"
+#include "destruir.h"
+
 #include "hash.h"
 #include "lista.h"
-
-#define TAM_INICIAL 1000
+#include "tweet.h"
 
 /* ******************************************************************
- *                              TP2
+ *                              Twitter
  * *****************************************************************/
 
 void twitter() {

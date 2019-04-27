@@ -1,18 +1,7 @@
-/* ******************************************************************
- *                DEFINICION DE LOS TIPOS DE DATOS
- * *****************************************************************/
+#include <stdlib.h>
+#include <string.h>
 
-typedef struct tweet {
-	char* texto;
-	char* autor;
-	size_t cant_favoritos;
-	size_t id;
-} tweet_t;
-
-
-/* ******************************************************************
- *                       FUNCIONES AUXILIARES
- * *****************************************************************/
+#include "tweet.h"
 
 // Crea un nuevo tweet.
 tweet_t* crear_tweet(char* autor, char* texto, size_t id) {

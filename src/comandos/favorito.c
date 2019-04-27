@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+#include "tweet.h"
 #include "hash.h"
 
 void favorito(hash_t* tweets, char* id) {
