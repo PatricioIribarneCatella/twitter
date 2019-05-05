@@ -1,5 +1,7 @@
 # TP-Twitter
 
+Mínima aplicación de _Twitter_ (Algoritmos y Programación II - _FIUBA_)
+
 ### Compilar
 
 ```bash
